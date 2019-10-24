@@ -1,0 +1,32 @@
+<%= form_with(model: centro_de_treinamento, local: true) do |form| %>
+  <% if centro_de_treinamento.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(centro_de_treinamento.errors.count, "error") %> prohibited this centro_de_treinamento from being saved:</h2>
+
+      <ul>
+      <% centro_de_treinamento.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :nome %>
+    <%= form.text_field :nome, id: :centro_de_treinamento_nome %>
+  </div>
+
+  <div class="field">
+    <%= form.label :cnpj %>
+    <%= form.text_field :cnpj, id: :centro_de_treinamento_cnpj %>
+  </div>
+
+  <div class="field">
+    <%= form.label :responsavel %>
+    <%= form.text_field :responsavel, id: :centro_de_treinamento_responsavel %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
