@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @centro_de_treinamento.nome %>
+</p>
+
+<p>
+  <strong>Cnpj:</strong>
+  <%= @centro_de_treinamento.cnpj %>
+</p>
+
+<p>
+  <strong>Responsavel:</strong>
+  <%= @centro_de_treinamento.responsavel %>
+</p>
+
+<%= link_to 'Edit', edit_centro_de_treinamento_path(@centro_de_treinamento) %> |
+<%= link_to 'Back', centro_de_treinamentos_path %>

@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Centro De Treinamentos</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Cnpj</th>
+      <th>Responsavel</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @centro_de_treinamentos.each do |centro_de_treinamento| %>
+      <tr>
+        <td><%= centro_de_treinamento.nome %></td>
+        <td><%= centro_de_treinamento.cnpj %></td>
+        <td><%= centro_de_treinamento.responsavel %></td>
+        <td><%= link_to 'Show', centro_de_treinamento %></td>
+        <td><%= link_to 'Edit', edit_centro_de_treinamento_path(centro_de_treinamento) %></td>
+        <td><%= link_to 'Destroy', centro_de_treinamento, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Centro De Treinamento', new_centro_de_treinamento_path %>
