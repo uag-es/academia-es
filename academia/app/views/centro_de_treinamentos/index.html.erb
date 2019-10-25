@@ -18,8 +18,8 @@
         <td><%= centro_de_treinamento.nome %></td>
         <td><%= centro_de_treinamento.cnpj %></td>
         <td><%= centro_de_treinamento.responsavel %></td>
-        <td><%= link_to 'Show', centro_de_treinamento %></td>
-        <td><%= link_to 'Edit', edit_centro_de_treinamento_path(centro_de_treinamento) %></td>
+        <td><%= link_to 'Show', centro_de_treinamento, id:"s-#{centro_de_treinamento.nome}"%></td>
+        <td><%= link_to 'Edit', edit_centro_de_treinamento_path(centro_de_treinamento), id:"e-#{centro_de_treinamento.nome}"  %></td>
         <td><%= link_to 'Destroy', centro_de_treinamento, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>

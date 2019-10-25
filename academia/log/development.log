@@ -268,3 +268,585 @@ Processing by CentroDeTreinamentosController#index as HTML
 Completed 200 OK in 22ms (Views: 19.1ms | ActiveRecord: 0.6ms)
 
 
+Started GET "/" for ::1 at 2019-10-24 16:20:08 -0300
+  [1m[35m (15.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 125ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for ::1 at 2019-10-24 16:23:41 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/usuarios" for ::1 at 2019-10-24 16:24:11 -0300
+Processing by UsuariosController#index as HTML
+  Rendering usuarios/index.html.erb within layouts/application
+  [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+  Rendered usuarios/index.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 1125ms (Views: 1048.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuario" for ::1 at 2019-10-24 16:24:31 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/usuario"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/centro_de_treinamento" for ::1 at 2019-10-24 16:25:06 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/centro_de_treinamento"):
+  
+actionpack (5.1.7) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.7) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.7) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.7) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.7) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.7) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.7) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/centro_de_treinamentos" for ::1 at 2019-10-24 16:25:36 -0300
+Processing by CentroDeTreinamentosController#index as HTML
+  Rendering centro_de_treinamentos/index.html.erb within layouts/application
+  [1m[36mCentroDeTreinamento Load (0.0ms)[0m  [1m[34mSELECT "centro_de_treinamentos".* FROM "centro_de_treinamentos"[0m
+  Rendered centro_de_treinamentos/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 187ms (Views: 152.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios" for ::1 at 2019-10-24 16:26:23 -0300
+Processing by UsuariosController#index as HTML
+  Rendering usuarios/index.html.erb within layouts/application
+  [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+  Rendered usuarios/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 187ms (Views: 150.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/centro_de_treinamentos" for ::1 at 2019-10-24 16:26:59 -0300
+Processing by CentroDeTreinamentosController#index as HTML
+  Rendering centro_de_treinamentos/index.html.erb within layouts/application
+  [1m[36mCentroDeTreinamento Load (0.0ms)[0m  [1m[34mSELECT "centro_de_treinamentos".* FROM "centro_de_treinamentos"[0m
+  Rendered centro_de_treinamentos/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 187ms (Views: 162.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/centro_de_treinamentos/new" for ::1 at 2019-10-24 16:27:03 -0300
+Processing by CentroDeTreinamentosController#new as HTML
+  Rendering centro_de_treinamentos/new.html.erb within layouts/application
+  Rendered centro_de_treinamentos/_form.html.erb (31.3ms)
+  Rendered centro_de_treinamentos/new.html.erb within layouts/application (78.1ms)
+Completed 200 OK in 297ms (Views: 251.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/centro_de_treinamentos" for ::1 at 2019-10-24 16:27:14 -0300
+Processing by CentroDeTreinamentosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Uw8e6N6zCnKg0pgbbB1mNAO+GuEBVio9XnN1hyiLwKu1kP9MQFQgewK00UTn2l1cRzI71/9d09hpXzkM6WlwTg==", "centro_de_treinamento"=>{"nome"=>"", "cnpj"=>"989709", "responsavel"=>"marcos"}, "commit"=>"Create Centro de treinamento"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCentroDeTreinamento Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "centro_de_treinamentos" WHERE "centro_de_treinamentos"."cnpj" = ? LIMIT ?[0m  [["cnpj", "989709"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering centro_de_treinamentos/new.html.erb within layouts/application
+  Rendered centro_de_treinamentos/_form.html.erb (0.0ms)
+  Rendered centro_de_treinamentos/new.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 219ms (Views: 205.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/centro_de_treinamentos" for ::1 at 2019-10-24 16:27:29 -0300
+Processing by CentroDeTreinamentosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Wnk4d6+3ddD4zr+KTEvk17pGQGKF1cUGi5D5XN/zu8kBFWoU4JrekmlE9z6nTu8xJBfervPHnCIzh2hLrasf5g==", "centro_de_treinamento"=>{"nome"=>"kungfu", "cnpj"=>"989709", "responsavel"=>"marcos"}, "commit"=>"Create Centro de treinamento"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCentroDeTreinamento Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "centro_de_treinamentos" WHERE "centro_de_treinamentos"."cnpj" = ? LIMIT ?[0m  [["cnpj", "989709"], ["LIMIT", 1]]
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "centro_de_treinamentos" ("nome", "cnpj", "responsavel", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["nome", "kungfu"], ["cnpj", "989709"], ["responsavel", "marcos"], ["created_at", "2019-10-24 19:27:29.589347"], ["updated_at", "2019-10-24 19:27:29.589347"]]
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/centro_de_treinamentos/1
+Completed 302 Found in 16ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/centro_de_treinamentos/1" for ::1 at 2019-10-24 16:27:29 -0300
+Processing by CentroDeTreinamentosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCentroDeTreinamento Load (0.0ms)[0m  [1m[34mSELECT  "centro_de_treinamentos".* FROM "centro_de_treinamentos" WHERE "centro_de_treinamentos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering centro_de_treinamentos/show.html.erb within layouts/application
+  Rendered centro_de_treinamentos/show.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 266ms (Views: 193.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/centro_de_treinamentos" for ::1 at 2019-10-24 16:27:33 -0300
+Processing by CentroDeTreinamentosController#index as HTML
+  Rendering centro_de_treinamentos/index.html.erb within layouts/application
+  [1m[36mCentroDeTreinamento Load (0.0ms)[0m  [1m[34mSELECT "centro_de_treinamentos".* FROM "centro_de_treinamentos"[0m
+  Rendered centro_de_treinamentos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 266ms (Views: 236.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2019-10-24 16:56:03 -0300
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsuariosController#index as HTML
+  Rendering usuarios/index.html.erb within layouts/application
+  [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+  Rendered usuarios/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 516ms (Views: 472.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for 127.0.0.1 at 2019-10-24 16:56:45 -0300
+Processing by UsuariosController#new as HTML
+  Rendering usuarios/new.html.erb within layouts/application
+  Rendered usuarios/_form.html.erb (31.3ms)
+  Rendered usuarios/new.html.erb within layouts/application (62.5ms)
+Completed 200 OK in 250ms (Views: 219.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios" for 127.0.0.1 at 2019-10-24 16:58:59 -0300
+Processing by UsuariosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rp1SSxl8MNvDr9MBkdsVDBhGKu7H4ZFt5mHLJkVhh09cN06UA7JW/yUdy3qZOO1ZyTzURAADWfXssBXqih42Wg==", "usuario"=>{"nome"=>"marcos", "email"=>"marcos.com@gmail.com", "cpf"=>"000000000"}, "commit"=>"Create Usuario"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUsuario Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "usuarios" WHERE "usuarios"."cpf" = ? LIMIT ?[0m  [["cpf", "000000000"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering usuarios/new.html.erb within layouts/application
+  Rendered usuarios/_form.html.erb (0.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 266ms (Views: 250.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/usuarios" for 127.0.0.1 at 2019-10-24 16:59:19 -0300
+Processing by UsuariosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"L267kuwVbkix58RvqhRLr/BuWL4QqiwIATLLxW6jTBJ0AunxozjFCiBtjNtBEUBJbj/Gcma4dSy5JVrSHPvoPQ==", "usuario"=>{"nome"=>"marcos", "email"=>"marcos.com@gmail.com", "cpf"=>"00000000000"}, "commit"=>"Create Usuario"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUsuario Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "usuarios" WHERE "usuarios"."cpf" = ? LIMIT ?[0m  [["cpf", "00000000000"], ["LIMIT", 1]]
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "usuarios" ("nome", "email", "cpf", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["nome", "marcos"], ["email", "marcos.com@gmail.com"], ["cpf", "00000000000"], ["created_at", "2019-10-24 19:59:19.938063"], ["updated_at", "2019-10-24 19:59:19.938063"]]
+  [1m[35m (15.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/usuarios/2
+Completed 302 Found in 31ms (ActiveRecord: 15.6ms)
+
+
+Started GET "/usuarios/2" for 127.0.0.1 at 2019-10-24 16:59:20 -0300
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering usuarios/show.html.erb within layouts/application
+  Rendered usuarios/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 234ms (Views: 200.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/2/edit" for 127.0.0.1 at 2019-10-24 17:01:25 -0300
+Processing by UsuariosController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering usuarios/edit.html.erb within layouts/application
+  Rendered usuarios/_form.html.erb (0.0ms)
+  Rendered usuarios/edit.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 203ms (Views: 170.8ms | ActiveRecord: 0.0ms)
+
+
+Started PATCH "/usuarios/2" for 127.0.0.1 at 2019-10-24 17:01:29 -0300
+Processing by UsuariosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/1A1Og8cfS2drEqaO8m1aFVDH0/i194GBH0BJ0JloAaQJjIBvPeL1oYjfL23OC8Yp0MnzaYOiUeTDGjSKalMTg==", "usuario"=>{"nome"=>"marcos jose", "email"=>"marcos.com@gmail.com", "cpf"=>"00000000000"}, "commit"=>"Update Usuario", "id"=>"2"}
+  [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUsuario Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "usuarios" WHERE "usuarios"."cpf" = ? AND ("usuarios"."id" != ?) LIMIT ?[0m  [["cpf", "00000000000"], ["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.0ms)[0m  [1m[33mUPDATE "usuarios" SET "nome" = ?, "updated_at" = ? WHERE "usuarios"."id" = ?[0m  [["nome", "marcos jose"], ["updated_at", "2019-10-24 20:01:29.794359"], ["id", 2]]
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/usuarios/2
+Completed 302 Found in 31ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/2" for 127.0.0.1 at 2019-10-24 17:01:29 -0300
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering usuarios/show.html.erb within layouts/application
+  Rendered usuarios/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 203ms (Views: 174.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2019-10-24 17:05:30 -0300
+Processing by UsuariosController#index as HTML
+  Rendering usuarios/index.html.erb within layouts/application
+  [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+  Rendered usuarios/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 187ms (Views: 150.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/2/edit" for 127.0.0.1 at 2019-10-24 17:05:32 -0300
+Processing by UsuariosController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering usuarios/edit.html.erb within layouts/application
+  Rendered usuarios/_form.html.erb (0.0ms)
+  Rendered usuarios/edit.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 203ms (Views: 174.7ms | ActiveRecord: 0.0ms)
+
+
+Started PATCH "/usuarios/2" for 127.0.0.1 at 2019-10-24 17:14:30 -0300
+Processing by UsuariosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"oZO9s1TpRPyR2lESuilztt3qu5cN9+JPhfZtO7pWRBvO5bqI5wKyB4pVZzU22OnGL+qDFUkutQ4ShwTO0ZqoUw==", "usuario"=>{"nome"=>"marcos jose", "email"=>"marcos.com@gmail.com", "cpf"=>"077.178.244-69"}, "commit"=>"Update Usuario", "id"=>"2"}
+  [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUsuario Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "usuarios" WHERE "usuarios"."cpf" = ? AND ("usuarios"."id" != ?) LIMIT ?[0m  [["cpf", "077.178.244-69"], ["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.0ms)[0m  [1m[33mUPDATE "usuarios" SET "cpf" = ?, "updated_at" = ? WHERE "usuarios"."id" = ?[0m  [["cpf", "077.178.244-69"], ["updated_at", "2019-10-24 20:14:30.103576"], ["id", 2]]
+  [1m[35m (15.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/usuarios/2
+Completed 302 Found in 31ms (ActiveRecord: 15.6ms)
+
+
+Started GET "/usuarios/2" for 127.0.0.1 at 2019-10-24 17:14:30 -0300
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering usuarios/show.html.erb within layouts/application
+  Rendered usuarios/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 203ms (Views: 160.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/2/edit" for 127.0.0.1 at 2019-10-24 17:14:40 -0300
+Processing by UsuariosController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering usuarios/edit.html.erb within layouts/application
+  Rendered usuarios/_form.html.erb (0.0ms)
+  Rendered usuarios/edit.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 219ms (Views: 188.6ms | ActiveRecord: 0.0ms)
+
+
+Started PATCH "/usuarios/2" for 127.0.0.1 at 2019-10-24 17:14:45 -0300
+Processing by UsuariosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bflH8GUfEevJYRue7hon11r9UuTPxPTsfiGQhaUwdCUCj0DL1vTnENLuLbli672nqP1qZosdo63pUPlwzvyYbQ==", "usuario"=>{"nome"=>"marcos jose", "email"=>"marcos.com@gmail.com", "cpf"=>"077.178.244"}, "commit"=>"Update Usuario", "id"=>"2"}
+  [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUsuario Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "usuarios" WHERE "usuarios"."cpf" = ? AND ("usuarios"."id" != ?) LIMIT ?[0m  [["cpf", "077.178.244"], ["id", 2], ["LIMIT", 1]]
+  [1m[35mSQL (0.0ms)[0m  [1m[33mUPDATE "usuarios" SET "cpf" = ?, "updated_at" = ? WHERE "usuarios"."id" = ?[0m  [["cpf", "077.178.244"], ["updated_at", "2019-10-24 20:14:45.714735"], ["id", 2]]
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/usuarios/2
+Completed 302 Found in 31ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/2" for 127.0.0.1 at 2019-10-24 17:14:45 -0300
+Processing by UsuariosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering usuarios/show.html.erb within layouts/application
+  Rendered usuarios/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 203ms (Views: 170.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2019-10-24 17:15:37 -0300
+Processing by UsuariosController#index as HTML
+  Rendering usuarios/index.html.erb within layouts/application
+  [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+  Rendered usuarios/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 219ms (Views: 146.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/2/edit" for 127.0.0.1 at 2019-10-24 17:15:45 -0300
+Processing by UsuariosController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering usuarios/edit.html.erb within layouts/application
+  Rendered usuarios/_form.html.erb (0.0ms)
+  Rendered usuarios/edit.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 234ms (Views: 198.1ms | ActiveRecord: 0.0ms)
+
+
+Started PATCH "/usuarios/2" for 127.0.0.1 at 2019-10-24 17:15:51 -0300
+Processing by UsuariosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OvlPKMev0ofcR2KiO28yLP3s7VXDTGOjHokmrTCX3iNVj0gTdEQkfMfIVIW3nqhcD+zV14eVNOKJ+E9YW1syaw==", "usuario"=>{"nome"=>"marcos jose", "email"=>"marcos.com@gmail.com", "cpf"=>"12312312312"}, "commit"=>"Update Usuario", "id"=>"2"}
+  [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUsuario Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "usuarios" WHERE "usuarios"."cpf" = ? AND ("usuarios"."id" != ?) LIMIT ?[0m  [["cpf", "12312312312"], ["id", 2], ["LIMIT", 1]]
+  [1m[35m (15.6ms)[0m  [1m[31mrollback transaction[0m
+  Rendering usuarios/edit.html.erb within layouts/application
+  Rendered usuarios/_form.html.erb (0.0ms)
+  Rendered usuarios/edit.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 203ms (Views: 194.8ms | ActiveRecord: 15.6ms)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2019-10-24 17:27:01 -0300
+Processing by UsuariosController#index as HTML
+  Rendering usuarios/index.html.erb within layouts/application
+  [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+  Rendered usuarios/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 234ms (Views: 198.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for 127.0.0.1 at 2019-10-24 17:27:05 -0300
+Processing by UsuariosController#new as HTML
+  Rendering usuarios/new.html.erb within layouts/application
+  Rendered usuarios/_form.html.erb (15.6ms)
+  Rendered usuarios/new.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 203ms (Views: 178.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2019-10-24 18:54:54 -0300
+Processing by UsuariosController#index as HTML
+  Rendering usuarios/index.html.erb within layouts/application
+  [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+  Rendered usuarios/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 250ms (Views: 205.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/new" for 127.0.0.1 at 2019-10-24 18:59:32 -0300
+Processing by UsuariosController#new as HTML
+  Rendering usuarios/new.html.erb within layouts/application
+  Rendered usuarios/_form.html.erb (0.0ms)
+  Rendered usuarios/new.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 266ms (Views: 237.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2019-10-24 18:59:35 -0300
+Processing by UsuariosController#index as HTML
+  Rendering usuarios/index.html.erb within layouts/application
+  [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+  Rendered usuarios/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 188ms (Views: 154.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios/2/edit" for 127.0.0.1 at 2019-10-24 19:26:02 -0300
+Processing by UsuariosController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering usuarios/edit.html.erb within layouts/application
+  Rendered usuarios/_form.html.erb (0.0ms)
+  Rendered usuarios/edit.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 219ms (Views: 182.9ms | ActiveRecord: 0.0ms)
+
+
+Started PATCH "/usuarios/2" for 127.0.0.1 at 2019-10-24 19:26:09 -0300
+Processing by UsuariosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ii2AtdQ5SkY3lath069YSf7hZrUYYkaql5nAH5bhTKBNW4eOZ9K8vSwanUZfXsI5DOFeN1y7EesA6Knq/S2g6A==", "usuario"=>{"nome"=>"marcos jose", "email"=>"marcos.com@gmail.com", "cpf"=>"12312312312"}, "commit"=>"submit", "id"=>"2"}
+  [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUsuario Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "usuarios" WHERE "usuarios"."cpf" = ? AND ("usuarios"."id" != ?) LIMIT ?[0m  [["cpf", "12312312312"], ["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering usuarios/edit.html.erb within layouts/application
+  Rendered usuarios/_form.html.erb (0.0ms)
+  Rendered usuarios/edit.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 281ms (Views: 254.9ms | ActiveRecord: 0.0ms)
+
+
+Started PATCH "/usuarios/2" for 127.0.0.1 at 2019-10-24 19:26:19 -0300
+Processing by UsuariosController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eyahHZERDviEZJYvPliRrtnM2/8dIivqbyCE9Om6rcMgSvN+3jyluhXu3pvVXZpIR51FM2swcs7XNxXjm+IJ7A==", "usuario"=>{"nome"=>"marcos jose", "email"=>"marcos.com@gmail.com", "cpf"=>"12312312312"}, "commit"=>"submit", "id"=>"2"}
+  [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT  "usuarios".* FROM "usuarios" WHERE "usuarios"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUsuario Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "usuarios" WHERE "usuarios"."cpf" = ? AND ("usuarios"."id" != ?) LIMIT ?[0m  [["cpf", "12312312312"], ["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering usuarios/edit.html.erb within layouts/application
+  Rendered usuarios/_form.html.erb (0.0ms)
+  Rendered usuarios/edit.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 219ms (Views: 206.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/usuarios" for 127.0.0.1 at 2019-10-24 19:33:51 -0300
+Processing by UsuariosController#index as HTML
+  Rendering usuarios/index.html.erb within layouts/application
+  [1m[36mUsuario Load (0.0ms)[0m  [1m[34mSELECT "usuarios".* FROM "usuarios"[0m
+  Rendered usuarios/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 187ms (Views: 162.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/centro_de_treinamentos" for 127.0.0.1 at 2019-10-24 19:33:58 -0300
+Processing by CentroDeTreinamentosController#index as HTML
+  Rendering centro_de_treinamentos/index.html.erb within layouts/application
+  [1m[36mCentroDeTreinamento Load (0.0ms)[0m  [1m[34mSELECT "centro_de_treinamentos".* FROM "centro_de_treinamentos"[0m
+  Rendered centro_de_treinamentos/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 203ms (Views: 155.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/centro_de_treinamentos/1/edit" for 127.0.0.1 at 2019-10-24 19:34:04 -0300
+Processing by CentroDeTreinamentosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCentroDeTreinamento Load (0.0ms)[0m  [1m[34mSELECT  "centro_de_treinamentos".* FROM "centro_de_treinamentos" WHERE "centro_de_treinamentos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering centro_de_treinamentos/edit.html.erb within layouts/application
+  Rendered centro_de_treinamentos/_form.html.erb (15.6ms)
+  Rendered centro_de_treinamentos/edit.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 266ms (Views: 214.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/centro_de_treinamentos" for 127.0.0.1 at 2019-10-24 19:34:07 -0300
+Processing by CentroDeTreinamentosController#index as HTML
+  Rendering centro_de_treinamentos/index.html.erb within layouts/application
+  [1m[36mCentroDeTreinamento Load (0.0ms)[0m  [1m[34mSELECT "centro_de_treinamentos".* FROM "centro_de_treinamentos"[0m
+  Rendered centro_de_treinamentos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 266ms (Views: 226.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/centro_de_treinamentos/1/edit" for 127.0.0.1 at 2019-10-24 19:45:00 -0300
+Processing by CentroDeTreinamentosController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCentroDeTreinamento Load (0.0ms)[0m  [1m[34mSELECT  "centro_de_treinamentos".* FROM "centro_de_treinamentos" WHERE "centro_de_treinamentos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering centro_de_treinamentos/edit.html.erb within layouts/application
+  Rendered centro_de_treinamentos/_form.html.erb (0.0ms)
+  Rendered centro_de_treinamentos/edit.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 250ms (Views: 201.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/centro_de_treinamentos" for 127.0.0.1 at 2019-10-24 19:47:39 -0300
+Processing by CentroDeTreinamentosController#index as HTML
+  Rendering centro_de_treinamentos/index.html.erb within layouts/application
+  [1m[36mCentroDeTreinamento Load (0.0ms)[0m  [1m[34mSELECT "centro_de_treinamentos".* FROM "centro_de_treinamentos"[0m
+  Rendered centro_de_treinamentos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 172ms (Views: 143.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/centro_de_treinamentos/1" for 127.0.0.1 at 2019-10-24 19:49:00 -0300
+Processing by CentroDeTreinamentosController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCentroDeTreinamento Load (0.0ms)[0m  [1m[34mSELECT  "centro_de_treinamentos".* FROM "centro_de_treinamentos" WHERE "centro_de_treinamentos"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering centro_de_treinamentos/show.html.erb within layouts/application
+  Rendered centro_de_treinamentos/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 188ms (Views: 152.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/centro_de_treinamentos" for 127.0.0.1 at 2019-10-24 20:21:07 -0300
+Processing by CentroDeTreinamentosController#index as HTML
+  Rendering centro_de_treinamentos/index.html.erb within layouts/application
+  [1m[36mCentroDeTreinamento Load (0.0ms)[0m  [1m[34mSELECT "centro_de_treinamentos".* FROM "centro_de_treinamentos"[0m
+  Rendered centro_de_treinamentos/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 234ms (Views: 203.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/centro_de_treinamentos/new" for 127.0.0.1 at 2019-10-24 20:21:08 -0300
+Processing by CentroDeTreinamentosController#new as HTML
+  Rendering centro_de_treinamentos/new.html.erb within layouts/application
+  Rendered centro_de_treinamentos/_form.html.erb (15.6ms)
+  Rendered centro_de_treinamentos/new.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 250ms (Views: 210.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/centro_de_treinamentos" for 127.0.0.1 at 2019-10-24 20:57:04 -0300
+Processing by CentroDeTreinamentosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZtEJh5rxmxzLa8c+B6Bst7MZSwSLZ8l4yzd/ROjIMVKATugjBBaxFWkNjmGMZ1ff95VqMnVsMJ38GzPPKSqBtw==", "centro_de_treinamento"=>{"nome"=>"teste", "cnpj"=>"11.111.1111./8888-pp", "responsavel"=>"marcos"}, "commit"=>"Create Centro de treinamento"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCentroDeTreinamento Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "centro_de_treinamentos" WHERE "centro_de_treinamentos"."cnpj" = ? LIMIT ?[0m  [["cnpj", "11.111.1111./8888-pp"], ["LIMIT", 1]]
+  [1m[35mSQL (0.0ms)[0m  [1m[32mINSERT INTO "centro_de_treinamentos" ("nome", "cnpj", "responsavel", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["nome", "teste"], ["cnpj", "11.111.1111./8888-pp"], ["responsavel", "marcos"], ["created_at", "2019-10-24 23:57:04.247166"], ["updated_at", "2019-10-24 23:57:04.247166"]]
+  [1m[35m (15.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/centro_de_treinamentos/2
+Completed 302 Found in 31ms (ActiveRecord: 15.6ms)
+
+
+Started GET "/centro_de_treinamentos/2" for 127.0.0.1 at 2019-10-24 20:57:04 -0300
+Processing by CentroDeTreinamentosController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mCentroDeTreinamento Load (0.0ms)[0m  [1m[34mSELECT  "centro_de_treinamentos".* FROM "centro_de_treinamentos" WHERE "centro_de_treinamentos"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering centro_de_treinamentos/show.html.erb within layouts/application
+  Rendered centro_de_treinamentos/show.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 203ms (Views: 175.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/centro_de_treinamentos" for 127.0.0.1 at 2019-10-24 21:04:04 -0300
+Processing by CentroDeTreinamentosController#index as HTML
+  Rendering centro_de_treinamentos/index.html.erb within layouts/application
+  [1m[36mCentroDeTreinamento Load (0.0ms)[0m  [1m[34mSELECT "centro_de_treinamentos".* FROM "centro_de_treinamentos"[0m
+  Rendered centro_de_treinamentos/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 219ms (Views: 193.4ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/centro_de_treinamentos/2" for 127.0.0.1 at 2019-10-24 21:04:08 -0300
+Processing by CentroDeTreinamentosController#destroy as HTML
+  Parameters: {"authenticity_token"=>"MLGIeaGlwM4PY5mOeJB/lyEtQXu8HZljFba1kHro8oZr3doa7ohrjJ7p0TqTlXRxv3zft8oPwEetoSSHCLBWqQ==", "id"=>"2"}
+  [1m[36mCentroDeTreinamento Load (0.0ms)[0m  [1m[34mSELECT  "centro_de_treinamentos".* FROM "centro_de_treinamentos" WHERE "centro_de_treinamentos"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (15.6ms)[0m  [1m[31mDELETE FROM "centro_de_treinamentos" WHERE "centro_de_treinamentos"."id" = ?[0m  [["id", 2]]
+  [1m[35m (15.6ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/centro_de_treinamentos
+Completed 302 Found in 31ms (ActiveRecord: 31.2ms)
+
+
+Started GET "/centro_de_treinamentos" for 127.0.0.1 at 2019-10-24 21:04:08 -0300
+Processing by CentroDeTreinamentosController#index as HTML
+  Rendering centro_de_treinamentos/index.html.erb within layouts/application
+  [1m[36mCentroDeTreinamento Load (0.0ms)[0m  [1m[34mSELECT "centro_de_treinamentos".* FROM "centro_de_treinamentos"[0m
+  Rendered centro_de_treinamentos/index.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 203ms (Views: 160.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/centro_de_treinamentos/new" for 127.0.0.1 at 2019-10-24 21:04:19 -0300
+Processing by CentroDeTreinamentosController#new as HTML
+  Rendering centro_de_treinamentos/new.html.erb within layouts/application
+  Rendered centro_de_treinamentos/_form.html.erb (0.0ms)
+  Rendered centro_de_treinamentos/new.html.erb within layouts/application (31.3ms)
+Completed 200 OK in 266ms (Views: 226.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/centro_de_treinamentos" for 127.0.0.1 at 2019-10-24 21:04:42 -0300
+Processing by CentroDeTreinamentosController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"a06vTM1+RvNbTS3LM/mt21Ze9lBTDf9gGDlM0vbYaFuN0U7oU5ls+vkrZJS4PpazEtLXZq0GBoUvFQBZNzrYvg==", "centro_de_treinamento"=>{"nome"=>"teste", "cnpj"=>"989709", "responsavel"=>"marcos"}, "commit"=>"submit"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mCentroDeTreinamento Exists (0.0ms)[0m  [1m[34mSELECT  1 AS one FROM "centro_de_treinamentos" WHERE "centro_de_treinamentos"."cnpj" = ? LIMIT ?[0m  [["cnpj", "989709"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  Rendering centro_de_treinamentos/new.html.erb within layouts/application
+  Rendered centro_de_treinamentos/_form.html.erb (0.0ms)
+  Rendered centro_de_treinamentos/new.html.erb within layouts/application (31.2ms)
+Completed 200 OK in 219ms (Views: 214.5ms | ActiveRecord: 0.0ms)
+
+
