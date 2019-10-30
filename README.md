@@ -28,3 +28,6 @@ O Disciplina marcial é uma plataforma online que ajudará os mestres de academi
 **Repositório Principal:** [aqui](https://github.com/Projeto-ES-academia/academia-es)
 
 Mais informações estão contidas na [Ata-de-reuniao.pdf](https://github.com/Projeto-ES-academia/academia-es/blob/master/Ata-de-reuniao.pdf) aqui no repositório.
+
+
+trigger codacy
